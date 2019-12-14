@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/omerugi/CLionProjects/Ex2/txtfind.c
+/home/dor/CLionProjects/C-Ex2/Func.h
+
+/home/dor/CLionProjects/C-Ex2/main.c
 stdio.h
 -
-string.h
--
+Func.h
+/home/dor/CLionProjects/C-Ex2/Func.h
 

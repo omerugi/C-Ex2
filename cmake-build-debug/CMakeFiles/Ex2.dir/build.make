@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2019.2.5/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/98/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2019.2.5/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/98/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omerugi/CLionProjects/Ex2
+CMAKE_SOURCE_DIR = /home/dor/CLionProjects/C-Ex2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omerugi/CLionProjects/Ex2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dor/CLionProjects/C-Ex2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Ex2.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/Ex2.dir/flags.make
 
 CMakeFiles/Ex2.dir/main.c.o: CMakeFiles/Ex2.dir/flags.make
 CMakeFiles/Ex2.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerugi/CLionProjects/Ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Ex2.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Ex2.dir/main.c.o   -c /home/omerugi/CLionProjects/Ex2/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dor/CLionProjects/C-Ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Ex2.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Ex2.dir/main.c.o   -c /home/dor/CLionProjects/C-Ex2/main.c
 
 CMakeFiles/Ex2.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Ex2.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/omerugi/CLionProjects/Ex2/main.c > CMakeFiles/Ex2.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dor/CLionProjects/C-Ex2/main.c > CMakeFiles/Ex2.dir/main.c.i
 
 CMakeFiles/Ex2.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ex2.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/omerugi/CLionProjects/Ex2/main.c -o CMakeFiles/Ex2.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dor/CLionProjects/C-Ex2/main.c -o CMakeFiles/Ex2.dir/main.c.s
 
 CMakeFiles/Ex2.dir/isort.c.o: CMakeFiles/Ex2.dir/flags.make
 CMakeFiles/Ex2.dir/isort.c.o: ../isort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerugi/CLionProjects/Ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Ex2.dir/isort.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Ex2.dir/isort.c.o   -c /home/omerugi/CLionProjects/Ex2/isort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dor/CLionProjects/C-Ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Ex2.dir/isort.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Ex2.dir/isort.c.o   -c /home/dor/CLionProjects/C-Ex2/isort.c
 
 CMakeFiles/Ex2.dir/isort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Ex2.dir/isort.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/omerugi/CLionProjects/Ex2/isort.c > CMakeFiles/Ex2.dir/isort.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dor/CLionProjects/C-Ex2/isort.c > CMakeFiles/Ex2.dir/isort.c.i
 
 CMakeFiles/Ex2.dir/isort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ex2.dir/isort.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/omerugi/CLionProjects/Ex2/isort.c -o CMakeFiles/Ex2.dir/isort.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dor/CLionProjects/C-Ex2/isort.c -o CMakeFiles/Ex2.dir/isort.c.s
 
 CMakeFiles/Ex2.dir/txtfind.c.o: CMakeFiles/Ex2.dir/flags.make
 CMakeFiles/Ex2.dir/txtfind.c.o: ../txtfind.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerugi/CLionProjects/Ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Ex2.dir/txtfind.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Ex2.dir/txtfind.c.o   -c /home/omerugi/CLionProjects/Ex2/txtfind.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dor/CLionProjects/C-Ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Ex2.dir/txtfind.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Ex2.dir/txtfind.c.o   -c /home/dor/CLionProjects/C-Ex2/txtfind.c
 
 CMakeFiles/Ex2.dir/txtfind.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Ex2.dir/txtfind.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/omerugi/CLionProjects/Ex2/txtfind.c > CMakeFiles/Ex2.dir/txtfind.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dor/CLionProjects/C-Ex2/txtfind.c > CMakeFiles/Ex2.dir/txtfind.c.i
 
 CMakeFiles/Ex2.dir/txtfind.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ex2.dir/txtfind.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/omerugi/CLionProjects/Ex2/txtfind.c -o CMakeFiles/Ex2.dir/txtfind.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dor/CLionProjects/C-Ex2/txtfind.c -o CMakeFiles/Ex2.dir/txtfind.c.s
 
 # Object files for target Ex2
 Ex2_OBJECTS = \
@@ -110,7 +110,7 @@ Ex2: CMakeFiles/Ex2.dir/isort.c.o
 Ex2: CMakeFiles/Ex2.dir/txtfind.c.o
 Ex2: CMakeFiles/Ex2.dir/build.make
 Ex2: CMakeFiles/Ex2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/omerugi/CLionProjects/Ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Ex2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dor/CLionProjects/C-Ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Ex2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Ex2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/Ex2.dir/clean:
 .PHONY : CMakeFiles/Ex2.dir/clean
 
 CMakeFiles/Ex2.dir/depend:
-	cd /home/omerugi/CLionProjects/Ex2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omerugi/CLionProjects/Ex2 /home/omerugi/CLionProjects/Ex2 /home/omerugi/CLionProjects/Ex2/cmake-build-debug /home/omerugi/CLionProjects/Ex2/cmake-build-debug /home/omerugi/CLionProjects/Ex2/cmake-build-debug/CMakeFiles/Ex2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dor/CLionProjects/C-Ex2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dor/CLionProjects/C-Ex2 /home/dor/CLionProjects/C-Ex2 /home/dor/CLionProjects/C-Ex2/cmake-build-debug /home/dor/CLionProjects/C-Ex2/cmake-build-debug /home/dor/CLionProjects/C-Ex2/cmake-build-debug/CMakeFiles/Ex2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Ex2.dir/depend
 

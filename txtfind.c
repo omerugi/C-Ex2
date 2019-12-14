@@ -1,20 +1,31 @@
 #define LINE 256
 #define WORD 30
+
 #include <stdio.h>
 #include <string.h>
+#include "Func.h"
+/**
+ * Given Input string the function go Char by Char,
+ * and save the string in 's'.
+ * @param s
+ * @return the number of char in
+ */
 
-int getlin(char s[])
+
+int getlin(char line[])
 {
     int i = 0;
     int ch;
     int count =0;
-    while((ch = getchar()) != '\n'){
+
+    while((ch = getchar()) != '\n'&& ch != EOF){
         if(i< LINE) {
-            s[i++] = ch;
+            line[i++] = ch;
             count++;
         }
     }
-    s[i] = '\0';
+    line[i] = '\0';
+  //  printf("%s \n",line);
     return count;
 }
 
@@ -30,15 +41,31 @@ int getword(char w[])
         }
     }
     w[i] = '\0';
-    printf("%s",w);
+   // printf("%s \n",w);
     return count;
 }
 
 int substring(char *str1, char *str2){
+
     char *str_1 = str1;
     char *str_2 = str2;
     int last_check=0;
     int index_j =0;
+    ///// if we get a full line and then div it to words and check similar with offset
+//    char * pch;   // pingpong crack hore
+//    pch = strtok (str1," ");
+//
+//    while (pch != NULL)
+//    {
+//        if(similar(pch,str2,index_j) == 1){
+//            return 1;
+//        }
+//        printf ("%s\n",pch);
+//        pch = strtok (NULL, " ");
+//    }
+//    return 0;
+
+////// we compare the whole word with the other one
     for (int i = 0; i < strlen(str2); ++i) {
         for (int j = index_j ; j < strlen(str1) ; ++j) {
             if(str_1[j] == str_2[i]){
@@ -81,7 +108,18 @@ int similar(char *s, char *t, int n){
     else{return 0;}
 }
 
+void print_lines(char *wtf){
+    int flag =1;
+    char line[LINE];
+    if(getlin(line)==0){
+        return;
+    } else{
+        if(substring(line,wtf)==1){
+            printf("%s \n",line);
+        }
+        print_lines(wtf);
+    }
 
-
+}
 
 
