@@ -22,10 +22,17 @@ void main() {
 
         case 'a':{
             printf("empty line %d \n", getlin(temp));
+            getlin(temp);
             print_lines(wtf);
             break;
         }
+        case 'b':{
 
+            printf("empty line %d \n", getlin(temp));
+            getlin(temp);
+            print_similar_words(wtf);
+            break;
+        }
         default:{
             printf("somthing went wrong \n");
             break;
