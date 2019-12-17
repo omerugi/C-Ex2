@@ -26,7 +26,6 @@ int getlin(char line[])
     }
 
     line[i] = '\0';
-  //  printf("%s \n",line);
     return count;
 }
 
@@ -43,8 +42,6 @@ int getword(char w[])
     }
     if(ch == -1){ return -1;}
     w[i] = '\0';
-   //if(ch == EOF){return -1;}
-   // printf("%s \n",w);
     return count;
 }
 
