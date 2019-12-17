@@ -14,7 +14,6 @@ int main() {
 		num=0;
 	}
     insertion_sort(arr ,n);
-	printf("Array after sort:");
 	print_array(arr,n);
 	
  return 0; 

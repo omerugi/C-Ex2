@@ -4,6 +4,9 @@ void print_array(int *data, int n) {
     int i;
     for(i = 0; i<n; i++) {
         printf("%d ", *data);
+		if(i!=n-1){
+			printf(",");
+		}
         data++;
     }
     printf("\n");
