@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <string.h>
-#include "Func.h"
+#include "Functxt.h"
 /**
  * Given Input string the function go Char by Char,
  * and save the string in 's'.

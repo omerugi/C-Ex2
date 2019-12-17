@@ -1,3 +1,0 @@
-/home/dor/CLionProjects/C-Ex2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/dor/CLionProjects/C-Ex2/cmake-build-debug/CMakeFiles/Ex2.dir
-/home/dor/CLionProjects/C-Ex2/cmake-build-debug/CMakeFiles/edit_cache.dir
