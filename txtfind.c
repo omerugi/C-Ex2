@@ -59,31 +59,6 @@ int substring(char *str1, char *str2){
         return 1;
     }
     else return 0;
-
-//    char *str_1 = str1;
-//    char *str_2 = str2;
-//    int last_check=0;
-//    int index_j =0;
-//
-//////// we compare the whole word with the other one
-//    for (int i = 0; i < strlen(str2); ++i) {
-//        for (int j = index_j ; j < strlen(str1) ; ++j) {
-//            if(str_1[j] == str_2[i]){
-//                index_j=j+1;
-//                last_check++;
-//                j = strlen(str1);
-//            }
-//        }
-//    }
-//
-//    if(last_check == 0){
-//        return 0;
-//    }else if(strlen(str2) != last_check){
-//        return 0;
-//    }else if(strlen(str2) == last_check){
-//        return 1;
-//    }
-//    return 0;
 }
 
 int similar(char *s, char *t, int n){

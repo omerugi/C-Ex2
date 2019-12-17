@@ -2,7 +2,7 @@
 #include "Functxt.h"
 #define WORD 30
 #define LINE 256
-void main() {
+int main() {
 
     char wtf[WORD] ; // wtf - word to find
     int a;
@@ -32,5 +32,5 @@ void main() {
         }
 
     }
-
+ return 0;
 }
