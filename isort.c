@@ -12,19 +12,18 @@ void print_array(int *data, int n) {
     printf("\n");
 }
 
-void shift_element(int *arr, int *i) {
+void shift_element(int *arr, int i) {
+    int *p = &i;
     int ival;
-    for(ival = *i; i > arr && *(i-1) > ival; i--) {
-        *i = *(i-1);
+    for(ival = *p; p > arr && *(p-1) > ival; p--) {
+        *p = *(p-1);
     }
-    *i = ival;
+    *p = ival;
 }
 
 void insertion_sort(int *arr, int len) {
     int *i, *last = arr + len;
     for(i = arr + 1; i < last; i++)
         if(*i < *(i-1))
-            shift_element(arr, i);
+            shift_element(arr, *i);
 }
-
- 
