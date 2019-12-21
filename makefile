@@ -32,6 +32,6 @@ $(OBJF): txtfind.c Funciso.h
 	$(CC) -c $(W) $< 
 
 .PHONY: 
-	clean
+	clean all
 clean:
-	rm *.o  *$(DEPSM)
+	rm *.o  $(DEPSM)
